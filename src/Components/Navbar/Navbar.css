@@ -1,0 +1,54 @@
+a:visited {
+  text-decoration: none;
+  color: rgb(105, 105, 105);
+}
+a:hover {
+  border: 10px, solid,black;
+}
+
+header {
+  height: 15vh;
+  padding-top: auto;
+  padding-bottom: 5vh;
+}
+
+.navbar {
+  display: flex;
+  color: white;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 1%;
+  font-size: 20px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.boxd_logo {
+  height: 8vh;
+  width: 8vh;
+  margin: auto;
+}
+
+.links {
+  width: 40vw;
+  height: 10vh;
+  margin-top: 2.5vh;
+  margin-bottom: 2.5vh;
+}
+
+.links > a {
+  padding: 1vh;
+  margin-left: 1vh;
+}
+
+.demo {
+  border: 1.5px solid rgb(14,106,183);
+  border-radius: 25px;
+}
+.demo:hover {
+  color: whitesmoke;
+  background-color: rgb(220,19,133);
+  border: none;
+}
